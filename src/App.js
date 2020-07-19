@@ -9,7 +9,7 @@ import firebase from 'firebase'
 
 import FlipMove from 'react-flip-move'
 
-import logo from './assets/messenger-logo.jpg'
+import logo from './assets/messenger-logo.png'
 
 const App = () => {
   const [input, setInput] = useState('');
@@ -46,7 +46,8 @@ const App = () => {
   return (
     <div className="App">
       <img src={logo} alt='messenger clone logo' width='150' />
-      <h2>Welcom {userName} </h2>
+      <h1>Messenger Clone</h1>
+      <h3>Welcome {userName} </h3>
       <FlipMove>
         {
           messeges.map(messege => {
