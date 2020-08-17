@@ -1,3 +1,7 @@
+Chat app using react js and firebase firestore. (no authentication)
+
+LIVE DEMO: https://facebook-messenger-clone-reactapp.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
